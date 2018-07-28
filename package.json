@@ -1,0 +1,30 @@
+{
+	"name": "ghsearch",
+	"version": "0.0.0",
+	"description": "",
+	"scripts": {
+		"lint": "tslint \"./application/**/*.ts\" \"./application/**/*.tsx\"",
+		"start": "webpack-dev-server",
+		"build": "webpack",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"@types/node": "^10.5.2",
+		"@types/react": "^16.4.7",
+		"@types/react-dom": "^16.0.6",
+		"@types/react-redux": "^6.0.5",
+		"awesome-typescript-loader": "^5.2.0",
+		"less": "^3.8.0",
+		"postcss-exports-webpack-plugin": "git+ssh://git@github.com/avgaltsev/postcss-exports-webpack-plugin.git",
+		"react": "^16.4.1",
+		"react-dom": "^16.4.1",
+		"react-redux": "^5.0.7",
+		"redux": "^4.0.0",
+		"redux-saga": "^0.16.0",
+		"tslint": "^5.11.0",
+		"typescript": "^2.9.2",
+		"webpack": "^4.16.1",
+		"webpack-cli": "^3.1.0",
+		"webpack-dev-server": "^3.1.5"
+	}
+}

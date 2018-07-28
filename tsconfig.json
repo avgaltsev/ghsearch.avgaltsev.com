@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"typeRoots": [
+			"./node_modules/@types/"
+		],
+
+		"target": "es5",
+		"jsx": "react",
+
+		"lib": [
+			"dom",
+			"scripthost",
+			"es2018"
+		],
+
+		"noImplicitAny": true
+	},
+
+	"exclude": [
+		"./node_modules/"
+	]
+}
