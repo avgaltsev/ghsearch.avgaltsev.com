@@ -1,0 +1,181 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  outline: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  min-height: 100%;
+}
+body {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  line-height: 1.7;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #444;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+h1 {
+  margin-bottom: 1em;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.5em;
+}
+h2 {
+  margin-bottom: 1em;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.2em;
+}
+h3 {
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5em;
+  font-size: 1em;
+}
+p,
+ol,
+ul {
+  margin-bottom: 0.5em;
+  font-size: 1em;
+}
+ol {
+  list-style: decimal;
+}
+ul {
+  list-style: disc;
+}
+li {
+  margin-left: 2em;
+}
+a {
+  color: #888;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+b,
+strong {
+  font-weight: 400;
+}
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+pre {
+  font-size: 0.8em;
+  white-space: pre-wrap;
+}
+
+#application {
+  height: 100%;
+  font-size: 16px;
+}
+
+.application_components_Application_styles_root {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.application_components_Application_styles_search {
+  margin: 100px 1em 0;
+  transition: margin-top 0.2s;
+}
+.application_components_Application_styles_search_initial {
+  margin-top: 200px;
+}
+.application_components_Application_styles_result {
+  margin: 2em 1em 0;
+}
+.application_components_Application_styles_result_initial {
+  display: none;
+}
+
+.application_components_Search_styles_root {
+  display: flex;
+  overflow: hidden;
+  border-radius: 1em;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 1, 0.5);
+}
+.application_components_Search_styles_input {
+  flex-grow: 1;
+  padding: 1em;
+}
+.application_components_Search_styles_input::placeholder {
+  color: #ccc;
+}
+.application_components_Search_styles_button {
+  padding: 0 1em;
+  font-family: "Material Icons";
+  font-size: 1.5em;
+}
+.application_components_Search_styles_button_disabled {
+  color: #ccc;
+  cursor: default;
+}
+
+.application_components_Result_styles_root {
+  margin-bottom: 2em;
+}
+.application_components_Result_styles_status {
+  text-align: center;
+}
+.application_components_Result_styles_user {
+  display: flex;
+}
+.application_components_Result_styles_profile {
+  display: block;
+  margin-right: 2em;
+}
+.application_components_Result_styles_avatar {
+  display: block;
+  width: 200px;
+  border-radius: 1em;
+}
+.application_components_Result_styles_name {
+  margin-top: 0.5em;
+  text-align: center;
+}
+.application_components_Result_styles_list {
+  margin-left: 2em;
+  flex-grow: 1;
+  width: 0;
+}
+.application_components_Result_styles_list h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.application_components_Result_styles_list li {
+  margin-left: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
