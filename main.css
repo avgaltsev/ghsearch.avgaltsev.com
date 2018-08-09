@@ -1,19 +1,9 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  outline: 0;
-  border: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html,
 body {
-  min-height: 100%;
+  background-color: #eee;
 }
-body {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-text-size-adjust: 100%;
+#application {
+  height: 100%;
+  font-size: 16px;
 }
 
 body {
@@ -94,22 +84,41 @@ pre {
   white-space: pre-wrap;
 }
 
-#application {
-  height: 100%;
-  font-size: 16px;
+*,
+*::before,
+*::after {
+  margin: 0;
+  outline: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  min-height: 100%;
+}
+body {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
 }
 
 .application_components_Application_styles_root {
-  width: 800px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
-.application_components_Application_styles_search {
-  margin: 100px 1em 0;
-  transition: margin-top 0.2s;
+.application_components_Application_styles_title {
+  margin-top: 1em;
+  margin-bottom: 0;
+  font-size: 2em;
+  text-align: center;
+  transition: font-size 0.2s;
 }
-.application_components_Application_styles_search_initial {
-  margin-top: 200px;
+.application_components_Application_styles_title_initial {
+  font-size: 4em;
+}
+.application_components_Application_styles_search {
+  margin: 2em 1em 0;
 }
 .application_components_Application_styles_result {
   margin: 2em 1em 0;
