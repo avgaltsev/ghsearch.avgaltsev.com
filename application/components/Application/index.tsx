@@ -38,7 +38,9 @@ class Application extends Component<ApplicationProps, any> {
 		}
 
 		return <div className={styles.root()}>
-			<div className={styles.search(initial && "initial")}>
+			<h1 className={styles.title(initial && "initial")}>Github Search</h1>
+
+			<div className={styles.search()}>
 				<Search/>
 			</div>
 

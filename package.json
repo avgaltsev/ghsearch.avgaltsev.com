@@ -6,14 +6,16 @@
 		"lint": "tslint \"./application/**/*.ts\" \"./application/**/*.tsx\"",
 		"start": "webpack-dev-server",
 		"build": "webpack",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "tsc && jest"
 	},
 	"devDependencies": {
+		"@types/jest": "^23.3.1",
 		"@types/node": "^10.5.2",
 		"@types/react": "^16.4.7",
 		"@types/react-dom": "^16.0.6",
 		"@types/react-redux": "^6.0.5",
 		"awesome-typescript-loader": "^5.2.0",
+		"jest": "^20.0.0",
 		"less": "^3.8.0",
 		"postcss-exports-webpack-plugin": "git+ssh://git@github.com/avgaltsev/postcss-exports-webpack-plugin.git",
 		"react": "^16.4.1",
